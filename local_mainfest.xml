@@ -10,5 +10,8 @@
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_whyred-common" remote="sakhiofsakshi" revision="eleven" clone-depth="1" />
         <project path="kernel/xiaomi/whyred" name="kernel_xiaomi_whyred" remote="sakhiofsakshi" revision="extended-eas" clone-depth="1" />
 	<project path="vendor/MiuiCamera" name="vendor_xiaomi_MiuiCamera" remote="sakhiofsakshi" revision="eleven" clone-depth="1" />
-	<project path="frameworks/base" name="android_frameworks_base" remote="sakhiofsakshi" revision="lineage-18.1" clone-depth="1" />
+	
+	<!-- Replacements -->
+	 <remove-project name="platform_frameworks_base"/>
+         <project path="frameworks/base" name="android_frameworks_base" remote="sakhiofsakshi" revision="lineage-18.1" />
 </manifest>
